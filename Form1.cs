@@ -23,7 +23,6 @@ namespace EU4RandomCountryPicker
 
         private void LoadRegions()
         {
-            Regions.RemoveAt(0);
             RegionsListBox.Items.AddRange(
                 Regions.OrderBy(x => x).ToArray());
         }
@@ -43,22 +42,16 @@ namespace EU4RandomCountryPicker
             foreach (var countryInfo in countryInfos)
             {
                 var splitedInfo = countryInfo.Split('|');
-                try
-                {
-                    string name = splitedInfo[1];
-                    string tag = splitedInfo[2];
-                    string generalLocation = splitedInfo[3];
-                    string exclusive = splitedInfo[4];
+                
+                string name = splitedInfo[1];
+                string tag = splitedInfo[2];
+                string generalLocation = splitedInfo[3];
+                string exclusive = splitedInfo[4];
 
-                    Country tempCountry = new Country(name, tag, generalLocation, exclusive);
-                    Countries.Add(tempCountry);
+                Country tempCountry = new Country(name, tag, generalLocation, exclusive);
+                Countries.Add(tempCountry);
 
-                    CheckRegionExistOrInsert(generalLocation);
-                }
-                catch (IndexOutOfRangeException)
-                {
-                    break;
-                }
+                CheckRegionExistOrInsert(generalLocation);
             }
         }
 
@@ -68,7 +61,7 @@ namespace EU4RandomCountryPicker
                 Regions.Add(generalLocation);
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void PickRandomCountry_Click(object sender, EventArgs e)
         {
             var filteredRegions = RegionsListBox.CheckedItems;
             var result = string.Empty;
