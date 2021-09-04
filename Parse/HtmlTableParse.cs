@@ -30,10 +30,7 @@ namespace EU4RandomCountryPicker.Parse
                 output += string.Join("|", row.Descendants().Where(desc =>
                     desc.Name.Equals("td", StringComparison.OrdinalIgnoreCase))
                     .Select(desc => desc.InnerText));
-                output += ",";
             }
-
-            output.Remove(output.Length - 1, 1);
 
             return output;
         }
