@@ -2,6 +2,6 @@
 {
     public interface IParse
     {
-        object Parse(string downloadPage, string tableName);
+        object Parse(string downloadPage, string contentName);
     }
 }
