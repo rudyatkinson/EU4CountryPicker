@@ -3,7 +3,7 @@ Windows Forms Application
 
 I decided to develop the app, when we wanna start a new EU4 campaign with random countries.
 
-* App takes the country table from wiki, and parse it. 
+* App takes the country table from [Wiki](https://eu4.paradoxwikis.com/Countries), and parse it. 
 * You can filter regions which ever you want to play.
 
 ### Dependencies
