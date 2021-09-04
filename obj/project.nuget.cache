@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "EcPeVEW82EiX+isaOPobr2LQF9CLerLRsbFmoXjrLVYWbZmZyeUDUJXg4zhb06yoZ0fe2ufxS5BitI7BnUc5AQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\aydnb\\source\\repos\\EU4RandomCountryPicker\\EU4RandomCountryPicker\\EU4RandomCountryPicker.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\aydnb\\.nuget\\packages\\htmlagilitypack\\1.11.36\\htmlagilitypack.1.11.36.nupkg.sha512"
+  ],
+  "logs": []
+}
