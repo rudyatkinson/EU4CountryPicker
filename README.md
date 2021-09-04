@@ -16,4 +16,4 @@ I decided to develop the app, when we wanna start a new EU4 campaign with random
 
 ![Image](https://i.hizliresim.com/eivfpxd.png)
 
-*App cost me a few hours.*
+*It cost me a few hours to learn and read documentation of HTML Agility Pack.*
