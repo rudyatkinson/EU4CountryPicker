@@ -12,6 +12,11 @@ I decided to develop the app, when we wanna start a new EU4 campaign with random
 * HTML Agility Pack - *Nuget package I learned while developing the app.*
 
 
+### Download
+
+[Google Drive](https://drive.google.com/file/d/1sbaZPC0M305j_5NUwoG76_sytrYmDHbh/view?usp=sharing)
+
+
 ### ScreenShot
 
 ![Image](https://i.hizliresim.com/eivfpxd.png)
