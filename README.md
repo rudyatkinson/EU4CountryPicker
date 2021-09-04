@@ -12,4 +12,6 @@ I decided to develop the app, when we wanna start a new EU4 campaign with random
 
 *It cost me a few hours.*
 
+### ScreenShot
+
 ![Image](https://i.hizliresim.com/eivfpxd.png)
